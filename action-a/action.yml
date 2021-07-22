@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Hi octocat from @devarshgandhi"
+author: "octocat@github.com"
+
+inputs:
+  MY_NAME:
+    description: "@devarshgandhi"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
